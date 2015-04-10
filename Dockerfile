@@ -7,6 +7,8 @@ RUN npm install -g express-generator
 # generate project
 RUN cd /opt && express -e --git app
 
+# for development help
+RUN npm install -g node-dev
 WORKDIR /opt/app
 RUN npm install
 
