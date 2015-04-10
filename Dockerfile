@@ -14,5 +14,8 @@ RUN npm install -g node-dev
 WORKDIR /opt/app
 RUN npm install
 
+# use mongo drivee
+RUN npm install mongodb --save
+
 # use ect as a template engine
 RUN npm install ect --save
