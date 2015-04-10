@@ -21,3 +21,5 @@ RUN npm install mongodb --save
 RUN npm install ect --save
 
 ENV DEBUG app:*
+
+CMD ["node-dev", "./bin/www"]
