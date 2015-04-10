@@ -6,5 +6,7 @@
 * npm modules
  * express v4
  * mongodb v2
-
+ * ect,ejs
+ * node-dev
+ 
 
