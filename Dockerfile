@@ -19,3 +19,5 @@ RUN npm install mongodb --save
 
 # use ect as a template engine
 RUN npm install ect --save
+
+ENV DEBUG app:*
